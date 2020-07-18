@@ -1,3 +1,164 @@
 body{
     font-family:'Raleway', sans-serif;
+    font-size:14px;
 }
+
+*,
+*:before,
+*:after{
+box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin:0;
+}
+
+
+
+.container{
+    width: 100%;
+    max-width: 1170px;
+    margin:0 auto;
+}
+
+
+/* section Header  */
+
+.header{
+    
+    background-image: url(../images/header/header.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    -webkit-background-size: cover;
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    z-index: 1000;
+    padding-bottom:155px;
+
+  
+
+}
+
+.header__intro{
+    display:flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items:center;
+}
+
+
+
+
+
+
+.header__logo{
+    margin:37px 350px 37px 0;
+   text-transform: uppercase;
+    font-size:30px;
+    
+}
+
+.header__logo--active{
+color:#66697e;
+margin-right:-5px;
+font-weight:900;
+
+
+}
+
+.header__logo--box{
+    color:#ffffff;
+    font-weight:normal;
+    
+}
+
+.header__content{
+    color:#ffffff;
+   text-align: center;
+   width:100%;
+   
+   margin:0 auto;
+   max-width: 990px;
+   
+   margin-top:155px;
+
+}
+.header__content h1{
+    
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  line-height: 1.1;
+ 
+    margin-bottom:30px;
+  font-size:65px;
+  text-transform: uppercase;
+}
+
+.header__text{
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+    line-height:1.5;
+    margin-bottom:80px;
+   
+}
+
+
+.header__btn{
+    background-color:#e84545;
+    color:#ffffff;
+    text-transform: uppercase;
+    border:none;
+    font-family: 'Raleway', sans-serif;
+    font-size:13px;
+    font-weight: 600;
+    padding:15px 40px;
+    border-radius: 3%;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.header__btn:focus, a:active{
+    outline:none;
+
+
+}
+
+
+
+
+
+
+
+/* Nav */
+
+.nav{
+    margin-right:0;
+}
+
+.nav__item-link{
+    font-size:13px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    color:#c1c2ca;
+    margin-left:60px;
+    text-transform: uppercase;
+}
+
+.nav__item-link:first-child{
+    margin-left:0px;
+}
+
+
+
+
+
+
+
+/* 
+font-family: 'Cardo', serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif; */
